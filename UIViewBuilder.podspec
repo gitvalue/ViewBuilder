@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UIViewBuilder"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of UIViewBuilder."
 
   # This description is used to generate tags and improve search results.
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
+  s.platform     = :ios, "10.0"
 
   s.swift_version = '4.2'
 
